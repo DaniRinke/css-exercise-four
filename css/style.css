@@ -1,4 +1,39 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
   font-size: 10px;
+
+}
+div {
+  column-count: 1;
+  height: 300px
+}
+
+
+@media screen and (win-width: 575px) { div
+{ column-count: 2;}
+}
+
+@media screen and (win-width: 991px) { div
+{ column-count: 4;}
+}
+
+.container {
+  background-color: grey;
+}
+
+.preview_baku {
+
+background-image: url("../images/baku.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.preview_london {
+  background-image: url("../images/london.png");
+   background-size: cover;
+   background-repeat: no-repeat;
 }
