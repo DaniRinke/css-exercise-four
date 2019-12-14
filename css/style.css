@@ -12,9 +12,9 @@ body {
 }
 div {
   display: inline-block;
-  height: 70%;
-  Width: 100%;
-  margin: auto;
+  height: 300px;
+  Width: 400px;
+  margin: 1%;
   background-color: #dadada;
 
 }
@@ -22,53 +22,49 @@ div {
 
 @media screen and (min-width: 575px) { div
   { display: inline-block;
-  width: 49%;
+  width: 47%;
   margin:1%; }
 
 }
 
 @media screen and (min-width: 991px) { div
 { display: inline-block;
-width: 23%;
+width: 22%;
 margin: 1%;}
 }
 
 .container {
+  width: auto;
+  height: auto;
 
-  width: 700px;
-  height: 700px;
 }
 
 
 
 h1 {
-Font-size: 3em;
+Font-size: 2.5em;
 font-family: serif;
 text-align: left;
 padding-left: 40px;
 padding-top: 30px;
-font-weight: 600;
+font-weight: 300;
 }
 
 .emphasis {
-  font-style: sans-serif
-}
-
-.emphasis h1 {
-  Font-size: 10px;
-  font-family: Arial;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 10px;
   text-align: center;
-  Text-transform: uppercase;
-  Padding-bottom: 0px;
+
 
 }
+
 
 .baku {
 
 background-image: url("../images/baku.jpg");
  background-size: cover;
  background-repeat: no-repeat;
-
 
 }
 
